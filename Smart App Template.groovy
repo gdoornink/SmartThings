@@ -71,7 +71,7 @@ def contextCheck() {
   DEVICE HANDLERS
  * * * * * * * * * */
  
-def ***Handler(evt) {
+def templateHandler(evt) {
   if(contextCheck()) {
     
     // TODO: create handlers using this template
