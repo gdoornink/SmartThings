@@ -14,6 +14,11 @@
  *
  */
 
+/*
+ *	GOAL BEHAVIOR
+ *	- 
+ */
+
 definition(
     name: "[NAME]",
     namespace: "GTDoor",
@@ -63,8 +68,30 @@ def initialize() {
   CONTEXT TOOLS
  * * * * * * * * * */
 
+	// TODO: add/edit context tools as needed
+
 def contextCheck() {
-  // TODO: create context requirements
+	return (contextSwitch() && contextPresence() && contextTime() && contextWeekday() && contextCalendar())
+}
+
+def contextSwitch() {
+	return true
+}
+
+def contextPresence() {
+	return true
+}
+
+def contextTime() {
+	return true
+}
+
+def contextWeekday() {
+	return true
+}
+
+def contextCalendar() {
+	return true
 }
 
 /* * * * * * * * * *
