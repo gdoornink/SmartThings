@@ -24,9 +24,16 @@ definition(
     iconX2Url: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience@2x.png",
     iconX3Url: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience@2x.png")
 
+/* * * * * * * * * *
+  PAGES AND INPUTS
+ * * * * * * * * * */
 
 preferences {
-	section("Title") {
+	page(name:"page1")
+}
+
+def page1() {
+	dynamicPage(name: "page1", title: "Title") {
 		// TODO: put inputs here
 	}
 }
