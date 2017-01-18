@@ -80,7 +80,7 @@ def templateHandler(evt) {
 }
 
 /* * * * * * * * * *
-  FINAL ACTIONS
+  ACTIONS
  * * * * * * * * * */
  
  // TODO: create actions
